@@ -10,11 +10,12 @@ end
 gem 'rails', '~> 5.1.5'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.7'
-
+gem 'twitter'
 
 group :development, :test do
   gem 'pry'
   gem 'dotenv-rails'
+
 end
 
 group :development do
