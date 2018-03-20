@@ -14,6 +14,7 @@ gem 'puma', '~> 3.7'
 
 group :development, :test do
   gem 'pry'
+  gem 'dotenv-rails'
 end
 
 group :development do
